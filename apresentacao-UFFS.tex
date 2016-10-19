@@ -8,7 +8,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english,brazil]{babel}
-%\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
 
 \usepackage{tikz}
 
@@ -89,17 +90,13 @@ Campus Chapecó}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setbeamertemplate{footline}{ 
-	\color{white}
-     \\
-    }
+\setbeamertemplate{footline}{ \color{white}\\}
 \addtocounter{framenumber}{-1}
 
 % Para Referências grandes descomente a linha abaixo
 %\begin{frame}[allowframebreaks]{Referências} 
 \begin{frame}{Referências}
     \bibliography{referencias}
-    \bibliographystyle{apalike}    
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
